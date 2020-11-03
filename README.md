@@ -13,10 +13,11 @@ TF code is tested on:
 - terraform v0.13
 - proxmox virtual environment 6.0-4
 
-## Install proxmox module for terraform
-
 proxmox module is a community support module. It is not officially supported by terraform.
+
 See a full list of community support modules [here](https://www.terraform.io/docs/providers/type/community-index.html)
+
+## Install proxmox module for terraform
 
 ```
 git clone https://github.com/Telmate/terraform-provider-proxmox.git
