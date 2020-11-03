@@ -9,8 +9,8 @@ See https://www.davidxiao.me/post/create-vms-on-proxmox-with-terraform/
 TF code is tested on:
 - macOS 10.15 Catalina
 
-- go v1.15
-- terraform v0.13
+- go 1.15
+- terraform 0.13
 - proxmox virtual environment 6.0-4
 
 proxmox module is a community support module. It is not officially supported by terraform.
