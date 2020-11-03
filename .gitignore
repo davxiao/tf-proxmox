@@ -1,5 +1,13 @@
-# Object file
-*.o
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Ada Library Information
-*.ali
+# macOS
+.DS_Store
+
+# terraform
+.terraform/
+.tfstate
+.tfstate.backup
