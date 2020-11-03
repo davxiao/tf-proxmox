@@ -1,10 +1,21 @@
 # tf-proxmox
 
 This sample code stands up one k8s master and two k8s nodes using Terraform proxmox module.
+See https://www.davidxiao.me/post/create-vms-on-proxmox-with-terraform/
+
+## prerequisites
+
+TF code is tested on:
+- macOS 10.15 Catalina
+
+- go v1.15
+- terraform v0.13
+- proxmox virtual environment 6.0-4
 
 ## Install proxmox module for terraform
 
-It is a community support module. Not officially supported by terraform.
+proxmox module is a community support module. It is not officially supported by terraform.
+See a full list of community support modules [here](https://www.terraform.io/docs/providers/type/community-index.html)
 
 ```
 git clone https://github.com/Telmate/terraform-provider-proxmox.git
